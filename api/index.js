@@ -16,7 +16,7 @@ const multer = require('multer')
 const uploadMiddleware = multer({dest : './uploads'})
 const secret = 'nhcabfjhnv6w54t67vm54uy'
 const fs = require('fs')
-const dbURL = "mongodb+srv://blog:5DOaTNHfRSPAt0oB@cluster0.xqhhrgl.mongodb.net/Users?retryWrites=true&w=majority"
+const dbURL = "mongodb+srv://(Your Username):(Your Password)@cluster0.xqhhrgl.mongodb.net/Users?retryWrites=true&w=majority"
 const connectionParams = {
     useNewUrlParser: true,
 }
